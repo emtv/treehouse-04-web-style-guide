@@ -1,0 +1,12 @@
+.container {
+	padding: 0 1.5rem;
+}
+
+@include desktop_view  {
+
+	.container {
+		max-width: $screen-l;
+		margin: 0 auto;
+	}
+
+}
