@@ -339,6 +339,20 @@ template {
   display: none;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  line-height: 1.5;
+  color: #818181;
+}
+
+ul {
+  list-style: none;
+}
+
 .container {
   padding: 0 1.5rem;
 }
@@ -719,11 +733,6 @@ body {
   font-family: "Nunito", sans-serif !important;
 }
 
-p {
-  line-height: 1.5;
-  color: #818181;
-}
-
 .headline--primary {
   color: #56d9bb;
   font-weight: bold;
@@ -752,7 +761,6 @@ p {
 }
 
 .nav {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
