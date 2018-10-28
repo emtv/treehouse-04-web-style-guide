@@ -9,7 +9,7 @@
 		border-radius: 7px;
 		padding: 0.8rem 0;
 		margin: 0.8rem 0;
-		@media (min-width: $screen-sm){
+		@include desktop_view {
 			padding: 0.7rem;
 		}
 		&:hover{
